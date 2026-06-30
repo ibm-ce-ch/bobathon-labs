@@ -402,9 +402,11 @@ docker compose version
 
 > **1. Open the right folder.** Open the **`java-modernization/`** folder as your Bob workspace root.
 
-> **2. Start in Ask mode.** Use the mode selector and choose **`Ask`**. Ask mode is read-only, so Bob can read and reason about the code but *cannot* change or create files. Perfect for the analysis phases, and it guarantees no files are written until we're ready.
+> **2. Install the Java Modernization add-on (Premium).** Part D of this lab uses Bob's built-in Java Modernization workflow, which is a **Premium** feature. When you open a Java project for the first time, Bob displays a pop-up offering to install the add-on automatically — click **Install** if prompted. You can also install it at any time from **Bob Settings → General → Add-ons** and enabling **Java Modernization**. The add-on content is only visible when a Java project is open, so open the `java-modernization/` folder first if you do not see it listed.
 
-> **3. Glance at Permissions.** At the bottom of the chat panel, open the **Permissions** menu. For the analysis parts of this lab, leaving **Read** approved lets Bob explore the code without stopping to ask; anything that changes files still needs your OK.
+> **3. Start in Ask mode.** Use the mode selector and choose **`Ask`**. Ask mode is read-only, so Bob can read and reason about the code but *cannot* change or create files. Perfect for the analysis phases, and it guarantees no files are written until we're ready.
+
+> **4. Glance at Permissions.** At the bottom of the chat panel, open the **Permissions** menu. For the analysis parts of this lab, leaving **Read** approved lets Bob explore the code without stopping to ask; anything that changes files still needs your OK.
 
 ---
 
