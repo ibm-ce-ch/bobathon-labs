@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "carbon-mcp": {
+      "type": "streamable-http",
+      "url": "https://mcp.carbondesignsystem.com/mcp",
+      "headers": {
+        "Authorization": "Bearer <PASTE_TOKEN_FROM_SHARED_SHEET>",
+        "X-MCP-Session": "<PASTE_SESSION_ID_FROM_SHARED_SHEET>"
+      }
+    }
+  }
+}

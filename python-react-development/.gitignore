@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+
+# Node / build output
+node_modules/
+dist/
+build/
+*.log
+
+# Carbon MCP credentials (short-lived IBM SSO token — never commit)
+.env.carbon-mcp
+
+# Bob transient working files — throwaway, not useful to commit.
+# (.bob/mcp.json and .bob/skills/ ARE tracked so the lab ships pre-wired —
+#  strip your personal token/session out of mcp.json before committing.)
+**/.bob/notes/
+**/.bob/.bob-errors/
+**/.bob/cache/
+
+# Bob-generated lab outputs
+ARCHITECTURE.md
+DATA-PIPELINE.md
+REQUIREMENTS.md
+INVARIANTS.md
+SPEC.md
+teller-frontend-plan.md
+SECURITY_AUDIT_REPORT.md
+REMEDIATION_VERIFICATION.md
+*_secure.py
+output/
+*.tmp

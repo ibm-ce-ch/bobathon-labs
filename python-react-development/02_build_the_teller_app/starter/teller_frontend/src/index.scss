@@ -1,0 +1,33 @@
+// Carbon component styles + design tokens. This single import is all that's needed
+// to style every @carbon/react component and expose the --cds-* CSS custom
+// properties (theme + spacing). Do NOT import '@carbon/react/css/index.css' or any
+// '@carbon/react/scss/*.scss' partial — those paths do not resolve in v1.
+@use '@carbon/react';
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+body {
+  font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--cds-background);
+  color: var(--cds-text-primary);
+}
+
+code {
+  font-family: 'IBM Plex Mono', Menlo, Consolas, monospace;
+}
+
+#root {
+  min-height: 100vh;
+}
