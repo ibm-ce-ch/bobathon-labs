@@ -44,7 +44,7 @@ The connection is already set ip:
 
 Just open the **`02_build_the_teller_app`** folder as your Bob workspace and Bob picks all of this up automatically. Bob keeps the MCP connection details, skills, and custom modes in the project's `.bob/` folder, so they travel with the lab.
 
-> **Add your Carbon MCP credentials.** The token and session ID are shared separately in [this sheet](https://docs.google.com/spreadsheets/d/1YwabTyHriSXjsae0vGewFRn-ZUeKr0rx2pJAUj1v268/edit?usp=sharing). Open `.bob/mcp.json` and paste them in place of the two `<PASTE_…>` placeholders, so the file reads:
+> **Add your Carbon MCP credentials.** The token and session ID are shared separately in [this sheet](https://docs.google.com/spreadsheets/d/1YwabTyHriSXjsae0vGewFRn-ZUeKr0rx2pJAUj1v268/edit?usp=sharing). If the token is expired (mcp server disconnects), you can get your own credentials from [here](https://carbondesignsystem.com/developing/carbon-mcp/onboarding-and-setup/). Open `.bob/mcp.json` and paste them in place of the two `<PASTE_…>` placeholders, so the file reads:
 >
 > ```json
 > {
